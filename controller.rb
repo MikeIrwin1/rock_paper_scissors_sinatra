@@ -4,9 +4,9 @@ require ('pry-byebug')
 require_relative ('models/rps_model')
 also_reload('./models/*')
 
-# get '/' do
-#   erb (:home)
-# end
+get '/' do
+  erb (:home)
+end
 
 get '/:hand1/:hand2' do
   winner = RPSGame.check_win(params[:hand1], params[:hand2])

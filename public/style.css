@@ -1,0 +1,9 @@
+body {
+  background-color: rgb(172, 175, 179);
+  color: rgba(91, 37, 255, 0.92);
+}
+
+h1 {
+  display: block;
+  text-align: center;
+}
